@@ -1,0 +1,227 @@
+body {
+  background: url("../images/Tkv1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0%;
+  background-attachment: fixed;
+}
+.container-fluid {
+  margin: 0%;
+  background-color: rgb(6, 11, 85);
+  color: white;
+  border: 2px solid black;
+  width: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-left: 40%;
+}
+
+#navbarNav a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-brand {
+  position: absolute;
+  margin-top: 40px;
+}
+.nav-item {
+  border: 2px solid white;
+  width: 70px;
+  margin: 50px;
+  list-style: none;
+  font-size: 14px;
+  padding: 10px 40px;
+  border-radius: 40px;
+  color: white;
+  background-color: #ebecf0;
+  border: 4px solid #f3f4f7;
+  box-shadow: 7px 7px 15px 13px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0),
+    inset 7px 7px 15px rgba(55, 84, 170, 0.15),
+    inset -7px -7px 20px rgba(255, 255, 255, 1),
+    0px 0px 4px rgba(255, 255, 255, 0.2) !important;
+  background-color: #185bf1;
+}
+#personal_details {
+  display: flex;
+}
+#home_details {
+  position: relative;
+  top: 53%;
+  left: 48.7%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}
+#home_details p {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 35.5%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bolder;
+}
+#contact_details {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}
+#contact_details p {
+  margin-left: 50%;
+}
+
+span {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+#hobbies {
+  width: 60%;
+  height: 7rem;
+  border-radius: 3rem;
+  padding: 4rem;
+  display: grid;
+  box-shadow: 7px 7px 15px rgba(239, 162, 47, 0.15),
+    -7px -7px 20px rgb(246, 111, 22), inset 0px 0px 4px rgba(255, 255, 255, 0),
+    inset 7px 7px 15px rgba(55, 84, 170, 0.15),
+    inset -7px -7px 20px rgba(255, 255, 255, 1),
+    0px 0px 4px rgba(255, 255, 255, 0.2) !important;
+
+  grid-template-columns: 9rem 15rem;
+  grid-template-rows: repeat(autofit, min-content);
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+  align-items: center;
+}
+#about_details {
+  color: rgb(6, 11, 85);
+}
+ul {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #185bf1;
+}
+#Interests {
+  width: 60%;
+  height: 7rem;
+  border-radius: 3rem;
+  padding: 4rem;
+  margin-top: 18rem;
+  display: grid;
+  box-shadow: 7px 7px 15px rgba(239, 162, 47, 0.15),
+    -7px -7px 20px rgb(246, 111, 22), inset 0px 0px 4px rgba(255, 255, 255, 0),
+    inset 7px 7px 15px rgba(55, 84, 170, 0.15),
+    inset -7px -7px 20px rgba(255, 255, 255, 1),
+    0px 0px 4px rgba(255, 255, 255, 0.2) !important;
+
+  grid-template-columns: 9rem 15rem;
+  grid-template-rows: repeat(autofit, min-content);
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+  align-items: center;
+}
+.img {
+  display: flex;
+  margin-top: 10%;
+  padding: 10%;
+}
+.img img {
+  padding: 4rem;
+}
+th {
+  padding: 20px;
+}
+td {
+  padding: 20px;
+}
+table {
+  margin-top: 30px;
+}
+#skills {
+  margin-top: 20px;
+}
+#skills h1 {
+  font-size: 24px;
+  color: black;
+}
+#skills div {
+  padding-left: 45px;
+  background-image: linear-gradient(
+    160deg,
+    white,
+    rgb(116, 116, 252),
+    rgb(224, 123, 224),
+    white
+  );
+  padding: 30px;
+  margin: 20px;
+}
+#skills ol {
+  font-size: medium;
+  font-weight: normal;
+  color: black;
+  list-style: none;
+  line-height: 2;
+}
+h1 {
+  color: #185bf1;
+}
+#courses {
+  padding-left: 45px;
+  background-image: linear-gradient(
+    160deg,
+    white,
+    rgb(122, 206, 243),
+    rgb(190, 242, 163),
+    white
+  );
+  padding: 30px;
+  margin: 20px;
+  width: 35rem;
+  margin-top: 5%;
+}
+#courses ol {
+  list-style: none;
+  font-size: medium;
+  font-weight: normal;
+  color: black;
+  list-style: none;
+  line-height: 2;
+}
+#Ts {
+  margin-top: 40px;
+}
+#main_img {
+  border-radius: 50px;
+}
+#footer {
+  text-align: right;
+  position: fixed;
+  top: 50%;
+  left: 102%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: black;
+  padding: 10px;
+  margin-left: 4px;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+#home_details {
+  display: flex;
+}
